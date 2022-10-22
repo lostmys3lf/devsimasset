@@ -14,17 +14,11 @@
 		<!--navigation-->
 		<ul class="metismenu" id="menu">
 			<li>
-				<a href="javascript:;" class="has-arrow">
+				<a href="javascript:;">
 					<div class="parent-icon"><i class='bx bx-home-circle'></i>
 					</div>
 					<div class="menu-title">Dashboard</div>
 				</a>
-				<ul>
-					<li> <a href="index.html"><i class="bx bx-right-arrow-alt"></i>Default</a>
-					</li>
-					<li> <a href="index2.html"><i class="bx bx-right-arrow-alt"></i>Alternate</a>
-					</li>
-				</ul>
 			</li>
 			<li>
 				<a href="javascript:;" class="has-arrow">
@@ -48,7 +42,7 @@
 					<div class="menu-title">Master Data</div>
 				</a>
 				<ul>
-					<li> <a href="<?= base_url('Pegawai/view') ?>"><i class="bx bx-right-arrow-alt"></i>Lokasi</a>
+					<li> <a href="<?= base_url('table/view') ?>"><i class="bx bx-right-arrow-alt"></i>Lokasi</a>
 					</li>
 					<li> <a href="<?= base_url('Coa/view') ?>"><i class="bx bx-right-arrow-alt"></i>Tanah</a>
 					</li>
