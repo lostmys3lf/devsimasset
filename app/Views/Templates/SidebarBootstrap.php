@@ -28,20 +28,69 @@
 			</li>
 			<li>
 				<a href="javascript:;" class="has-arrow">
-					<div class="parent-icon"><i class="bx bx-category"></i>
+					<div class="parent-icon"><i class="bx bx-user"></i>
 					</div>
-					<div class="menu-title">Application</div>
+					<div class="menu-title">Admin</div>
 				</a>
 				<ul>
-					<li> <a href="<?= base_url('Pegawai/view') ?>"><i class="bx bx-right-arrow-alt"></i>Pegawai</a>
+					<li> <a href="<?= base_url('Pegawai/view') ?>"><i class="bx bx-right-arrow-alt"></i>Setting Menu</a>
 					</li>
-					<li> <a href="<?= base_url('Coa/view') ?>"><i class="bx bx-right-arrow-alt"></i>COA</a>
+					<li> <a href="<?= base_url('Coa/view') ?>"><i class="bx bx-right-arrow-alt"></i>Setting T-code</a>
 					</li>
-					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Todo List</a>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Kelola User</a>
 					</li>
-					<li> <a href="app-invoice.html"><i class="bx bx-right-arrow-alt"></i>Invoice</a>
+				</ul>
+			</li>
+			<li>
+				<a href="javascript:;" class="has-arrow">
+					<div class="parent-icon"><i class="bx bx-data"></i>
+					</div>
+					<div class="menu-title">Master Data</div>
+				</a>
+				<ul>
+					<li> <a href="<?= base_url('Pegawai/view') ?>"><i class="bx bx-right-arrow-alt"></i>Lokasi</a>
 					</li>
-					<li> <a href="app-fullcalender.html"><i class="bx bx-right-arrow-alt"></i>Calendar</a>
+					<li> <a href="<?= base_url('Coa/view') ?>"><i class="bx bx-right-arrow-alt"></i>Tanah</a>
+					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Gedung</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="javascript:;" class="has-arrow">
+					<div class="parent-icon"><i class="bx bx-money"></i>
+					</div>
+					<div class="menu-title">Transaksi</div>
+				</a>
+				<ul>
+					<li> <a href="<?= base_url('Pegawai/view') ?>"><i class="bx bx-right-arrow-alt"></i>Moving Asset</a>
+					</li>
+					<li> <a href="<?= base_url('Coa/view') ?>"><i class="bx bx-right-arrow-alt"></i>Inventaris Barang</a>
+					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Pemeliharaan Asset</a>
+					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Perbaikan Asset</a>
+					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Revaluasi Asset</a>
+					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Penghapusan Asset</a>
+					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Penempatan Asset</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="javascript:;" class="has-arrow">
+					<div class="parent-icon"><i class="bx bx-file"></i>
+					</div>
+					<div class="menu-title">Laporan</div>
+				</a>
+				<ul>
+					<li> <a href="<?= base_url('Pegawai/view') ?>"><i class="bx bx-right-arrow-alt"></i>Setting Menu</a>
+					</li>
+					<li> <a href="<?= base_url('Coa/view') ?>"><i class="bx bx-right-arrow-alt"></i>Setting T-code</a>
+					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Kelola User</a>
 					</li>
 				</ul>
 			</li>
