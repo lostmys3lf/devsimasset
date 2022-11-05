@@ -48,6 +48,10 @@
 					</li>
 					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Gedung</a>
 					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Barang</a>
+					</li>
+					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Kawasan</a>
+					</li>
 				</ul>
 			</li>
 			<li>
