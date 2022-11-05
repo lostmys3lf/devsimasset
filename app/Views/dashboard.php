@@ -73,12 +73,12 @@
                     <div class="card-body">
                         <div class="d-flex align-items-cente">
                             <div>
-                                <h6 class="mb-0">Sales Overview</h6>
+                                <h6 class="mb-0">Interaktif Maps</h6>
                             </div>
                             <div class="dropdown ms-auto">
                                 <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
                                 </a>
-                                <ul class="dropdown-menu">
+                                <!-- <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="javascript:;">Action</a>
                                     </li>
                                     <li><a class="dropdown-item" href="javascript:;">Another action</a>
@@ -88,10 +88,11 @@
                                     </li>
                                     <li><a class="dropdown-item" href="javascript:;">Something else here</a>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
-                        <div id="chart1"></div>
+                        <!-- <div id="chart1"></div> -->
+                        <div id="simple-map" class="gmaps"></div>
                     </div>
                 </div>
             </div>
