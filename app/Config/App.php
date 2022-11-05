@@ -5,6 +5,10 @@ namespace Config;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Session\Handlers\FileHandler;
 
+date_default_timezone_set("Asia/Jakarta");
+
+use DateTime;
+
 class App extends BaseConfig
 {
     /**
