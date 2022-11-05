@@ -9,7 +9,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0 text-white">Total Orders</p>
+                                <p class="mb-0 text-white">Total Tanah</p>
                                 <h4 class="my-1 text-white">8,643</h4>
                                 <p class="mb-0 font-13 text-white">+2.5% from last week</p>
                             </div>
@@ -24,7 +24,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0 text-white">Customers</p>
+                                <p class="mb-0 text-white">Total Gedung</p>
                                 <h4 class="my-1 text-white">28K</h4>
                                 <p class="mb-0 font-13 text-white">+5.4% from last week</p>
                             </div>
@@ -39,7 +39,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0 text-white">Revenue</p>
+                                <p class="mb-0 text-white">Total Bangunan</p>
                                 <h4 class="my-1 text-white">$24.5K</h4>
                                 <p class="mb-0 font-13 text-white">-4.5% from last week</p>
                             </div>
@@ -54,7 +54,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0 text-white">Growth</p>
+                                <p class="mb-0 text-white">Total Kawasan</p>
                                 <h4 class="my-1 text-white">41.86%</h4>
                                 <p class="mb-0 font-13 text-white">+8.4% from last week</p>
                             </div>
@@ -73,7 +73,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-cente">
                             <div>
-                                <h6 class="mb-0">Sales Overview</h6>
+                                <h6 class="mb-0">Interaktif Map</h6>
                             </div>
                             <div class="dropdown ms-auto">
                                 <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
@@ -100,7 +100,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div>
-                                <h6 class="mb-0">Monthly Orders</h6>
+                                <h6 class="mb-0">Jadwal</h6>
                             </div>
                             <div class="dropdown ms-auto">
                                 <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
