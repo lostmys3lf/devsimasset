@@ -9,12 +9,10 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0 text-white">Total Orders</p>
-                                <h4 class="my-1 text-white">8,643</h4>
-                                <p class="mb-0 font-13 text-white">+2.5% from last week</p>
+                                <p class="mb-0 text-white">Total Tanah</p>
+                                <h4 class="my-1 text-white">100</h4>
                             </div>
-                            <div class="fs-1 text-white"><i class='bx bxs-cart'></i>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -24,12 +22,10 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0 text-white">Customers</p>
-                                <h4 class="my-1 text-white">28K</h4>
-                                <p class="mb-0 font-13 text-white">+5.4% from last week</p>
+                                <p class="mb-0 text-white">Total Gedung</p>
+                                <h4 class="my-1 text-white">80</h4>
                             </div>
-                            <div class="fs-1 text-white"><i class='bx bxs-group'></i>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -39,12 +35,9 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0 text-white">Revenue</p>
-                                <h4 class="my-1 text-white">$24.5K</h4>
-                                <p class="mb-0 font-13 text-white">-4.5% from last week</p>
-                            </div>
-                            <div class="fs-1 text-white"><i class='bx bxs-wallet'></i>
-                            </div>
+                                <p class="mb-0 text-white">Total Bangunan</p>
+                                <h4 class="my-1 text-white">70</h4>
+                            </div>                            
                         </div>
                     </div>
                 </div>
@@ -54,12 +47,9 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0 text-white">Growth</p>
-                                <h4 class="my-1 text-white">41.86%</h4>
-                                <p class="mb-0 font-13 text-white">+8.4% from last week</p>
-                            </div>
-                            <div class="fs-1 text-white"><i class='bx bxs-bar-chart-alt-2'></i>
-                            </div>
+                                <p class="mb-0 text-white">Total Kawasan</p>
+                                <h4 class="my-1 text-white">20</h4>
+                            </div>                           
                         </div>
                     </div>
                 </div>
@@ -73,7 +63,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-cente">
                             <div>
-                                <h6 class="mb-0">Interaktif Maps</h6>
+                                <h6 class="mb-0">Sales Overview</h6>
                             </div>
                             <div class="dropdown ms-auto">
                                 <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
@@ -101,7 +91,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div>
-                                <h6 class="mb-0">Monthly Orders</h6>
+                                <h6 class="mb-0">Jadwal</h6>
                             </div>
                             <div class="dropdown ms-auto">
                                 <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
