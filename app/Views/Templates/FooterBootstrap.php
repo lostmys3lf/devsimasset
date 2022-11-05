@@ -117,6 +117,9 @@
 	<script src="/assets/plugins/chartjs/js/Chart.min.js"></script>
 	<script src="/assets/plugins/chartjs/js/Chart.extension.js"></script>
 	<script src="/assets/js/index2.js"></script>
+	<!-- google maps api -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKXKdHQdtqgPVl2HI2RnUa_1bjCxRCQo4&amp;callback=initMap" async defer></script>
+	<script src="/assets/plugins/gmaps/map-custom-script.js"></script>
 	<!--app JS-->
 	<script src="/assets/js/app.js"></script>
 	<script src="/assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
