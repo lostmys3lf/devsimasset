@@ -11,7 +11,7 @@
 							<ol class="breadcrumb mb-0 p-0">
 								<li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
 								</li>
-								<li class="breadcrumb-item active" aria-current="page">Data Table</li>
+								<li class="breadcrumb-item active" aria-current="page">List Data Gedung</li>
 							</ol>
 						</nav>
 					</div>
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				<!--end breadcrumb-->
-				<h6 class="mb-0 text-uppercase">DataTable Example</h6>
+				<h6 class="mb-0 text-uppercase">Data Gedung</h6>
 				<hr/>
 				<div class="card">
 					<div class="card-body">
@@ -37,12 +37,21 @@
 							<table id="example" class="table table-striped table-bordered" style="width:100%">
 								<thead>
 									<tr>
-										<th>Name</th>
-										<th>Position</th>
-										<th>Office</th>
-										<th>Age</th>
-										<th>Start date</th>
-										<th>Salary</th>
+										<th rowspan='2'>No</th>
+										<th rowspan='2'>ID Tanah</th>
+										<th rowspan='2'>ID Gedung</th>
+										<th rowspan='2'>Nama Gedung</th>
+										<th rowspan='2'>Alamat</th>
+										<th rowspan='2'>Provinsi</th>
+                                        <th rowspan='2'>Kota</th>
+										<th rowspan='2'>Kecamatan</th>
+										<th rowspan='2'>Kel/Desa</th>
+										<th rowspan='2'>Luas (M2)</th>
+                                        <th rowspan='2'>Jumlah Lantai</th>
+										<th rowspan='2'>Jumlah Ruangan</th>
+										<th colspan='4'>Kepemilikan</th>
+                                        <th>Cara Perolehan</th>
+
 									</tr>
 								</thead>
 								<tbody>
