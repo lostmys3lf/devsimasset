@@ -44,9 +44,9 @@
 				<ul>
 					<li> <a href="<?= base_url('table/view') ?>"><i class="bx bx-right-arrow-alt"></i>Lokasi</a>
 					</li>
-					<li> <a href="<?= base_url('Coa/view') ?>"><i class="bx bx-right-arrow-alt"></i>Tanah</a>
+					<li> <a href="<?= base_url('Tanah/index') ?>"><i class="bx bx-right-arrow-alt"></i>Tanah</a>
 					</li>
-					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Gedung</a>
+					<li> <a href="<?= base_url('Gedung/index') ?>"><i class="bx bx-right-arrow-alt"></i>Gedung</a>
 					</li>
 					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Barang</a>
 					</li>
