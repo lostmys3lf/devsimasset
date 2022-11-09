@@ -14,7 +14,7 @@
 		<!--navigation-->
 		<ul class="metismenu" id="menu">
 			<li>
-				<a href="javascript:;">
+				<a href="<?= base_url('Dashboard/index') ?>">
 					<div class="parent-icon"><i class='bx bx-home-circle'></i>
 					</div>
 					<div class="menu-title">Dashboard</div>
