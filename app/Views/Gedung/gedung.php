@@ -1,5 +1,6 @@
 <?= $this->extend("Templates/all"); ?>
 <?= $this->section("konten"); ?>
+<form action="<?= base_url('Gedung/input') ?>" method="POST">
 <!--start page wrapper -->
 		<div class="page-wrapper">
 			<div class="page-content">
@@ -18,7 +19,7 @@
 					<div class="ms-auto">
 						<!-- <div class="btn-group"> -->
                             
-							<button type="button" class="btn btn-primary">Tambah</button>
+							<button type="submit" class="btn btn-success">Tambah</button>
 							<!-- <button type="button" class="btn btn-primary split-bg-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">	<span class="visually-hidden">Toggle Dropdown</span> -->
 							<!-- </button> -->
 							<div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-end">	<a class="dropdown-item" href="javascript:;">Action</a>
