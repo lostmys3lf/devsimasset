@@ -48,7 +48,7 @@
 					</li>
 					<li> <a href="<?= base_url('Gedung/index') ?>"><i class="bx bx-right-arrow-alt"></i>Gedung</a>
 					</li>
-					<li> <a href="app-to-do.html"><i class="bx bx-right-arrow-alt"></i>Barang</a>
+					<li> <a href="<?= base_url('Barang/index') ?>"><i class="bx bx-right-arrow-alt"></i>Barang</a>
 					</li>
 					<li> <a href="<?= base_url('Kawasan/view') ?>"><i class="bx bx-right-arrow-alt"></i>Kawasan</a>
 					</li>
