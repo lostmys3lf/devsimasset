@@ -252,8 +252,8 @@
                         </div>
                         </div>
                         <hr>
-                        <div class="row">
-                        <div class="col-lg-6">
+                        <!-- <div class="row"> -->
+                        <!-- <div class="col-lg-6"> -->
                         <div class="card">
                             <div class="card-body">
                                 <h4>Data Sewa</h4>
@@ -341,13 +341,13 @@
 							</table>
 						</div>
                             </div>
-                        </div>
+                        <!-- </div> -->
                         </div>
                         
-                        <div class="col-lg-6">
+                        <!-- <div class="col-lg-6"> -->
                         <div class="card">
                             <div class="card-body">
-                                <h4>Data Setifikat Tanah</h4>
+                                <h4>Data Sertifikat Tanah</h4>
                                 <hr>
                             <div class="table-responsive">
 							<table id="example" class="table table-striped table-bordered" style="width:100%">
@@ -433,7 +433,7 @@
 						</div>
                             </div>
                         </div>
-                        </div>
+                        <!-- </div> -->
                         <!-- </div> -->
                 
                         <!-- <div class="row">
@@ -465,7 +465,7 @@
                                 </div>
                             </div> -->
                         <!-- </div> -->
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
