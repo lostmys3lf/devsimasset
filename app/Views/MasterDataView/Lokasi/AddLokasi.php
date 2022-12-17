@@ -84,7 +84,7 @@
                     <div class="mb-3 row">
                         <div class="col-sm-5"></div>
                         <input class="col-sm-1 btn btn-success" type="submit" value="Input">
-                        <button class="col-sm-1 btn btn-primary" onclick="goBack()">Cancel</button>
+                        <input class="col-sm-1 btn btn-secondary" type="button" value="Batal" onclick="javascript:history.go(-1);" />
                         <div class="col-sm-5"></div>
                     </div>
                 </form>
@@ -94,9 +94,4 @@
 </div>
 </div>
 </div>
-<script>
-    function goBack() {
-        window.history.back();
-    }
-</script>
 <?= $this->endsection('konten'); ?>
