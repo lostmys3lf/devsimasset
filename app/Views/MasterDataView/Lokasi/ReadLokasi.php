@@ -12,7 +12,7 @@
                         <ol class="breadcrumb mb-0 p-0">
                             <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                             </li>
-                            <li class="breadcrumb-item active" aria-current="page">Gedung</li>
+                            <li class="breadcrumb-item active" aria-current="page">Lokasi</li>
                         </ol>
                     </nav>
                 </div>
@@ -39,17 +39,25 @@
                         <table id="example" class="table table-striped table-bordered" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th>No</th>
-                                    <th>ID Tanah</th>
-                                    <th>ID Gedung</th>
-                                    <th>Nama Gedung</th>
-                                    <th>Alamat</th>
-                                    <th>Provinsi</th>
-                                    <th>Kota</th>
-                                    <th>Kecamatan</th>
+                                    <th>Id Lokasi</th>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php
+                                // looping hasil penghuni dari database
+                                foreach ($datalokasi as $row) :
+                                ?>
+                                    <tr>
+                                        <td scope="row" style="text-align:left"><?= $row['id_lokasi'] ?></td>
+                                        <td style="text-align:left"><?= $row['longitude'] ?></td>
+                                        <td style="text-align:left"><?= $row['latitude'] ?></td>
+                                    </tr>
+                                <?php
+                                endforeach;
+
+                                ?>
                             </tbody>
                         </table>
                     </div>

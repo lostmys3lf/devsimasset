@@ -6,7 +6,14 @@ class Lokasi extends BaseController
 {
     public function index()
     {
-        echo view('MasterDataView/Lokasi/ReadLokasi');
+        $pemodelanlokasi = model(LokasiModel::class);
+        $datalokasi = $pemodelanlokasi->getData();
+        echo view(
+            'MasterDataView/Lokasi/ReadLokasi',
+            [
+                'datalokasi' => $datalokasi,
+            ]
+        );
     }
     public function input()
     {
