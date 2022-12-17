@@ -10,7 +10,7 @@
                 <div class="ps-3">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb mb-0 p-0">
-                            <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                            <li class="breadcrumb-item"><a href="<?= base_url("Home/dashboard") ?>"><i class="bx bx-home-alt"></i></a>
                             </li>
                             <li class="breadcrumb-item active" aria-current="page">Lokasi</li>
                         </ol>
@@ -19,7 +19,15 @@
                 <div class="ms-auto">
                     <!-- <div class="btn-group"> -->
 
-                    <button type="submit" class="btn btn-success">Tambah</button>
+                    <button type="button" class="btn btn-success" data-bs-toggle="dropdown" aria-expanded="false">Tambah</button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="">Input Manual</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="">Input Dari Excel</a>
+                        </li>
+                    </ul>
                     <!-- <button type="button" class="btn btn-primary split-bg-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">	<span class="visually-hidden">Toggle Dropdown</span> -->
                     <!-- </button> -->
                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-end"> <a class="dropdown-item" href="javascript:;">Action</a>

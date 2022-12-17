@@ -17,6 +17,5 @@ class Lokasi extends BaseController
     }
     public function input()
     {
-        echo view('MasterDataView/Gedung/InputGedung');
     }
 }
