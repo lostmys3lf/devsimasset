@@ -8,13 +8,12 @@ class Home extends BaseController
     {
         return view('login');
     }
-     public function dashboard()
+    public function dashboard()
     {
-        return view('Templates/all');
+        return view('dashboard');
     }
-     public function table()
+    public function table()
     {
         return view('Templates/tampilan-database/tampilan-database');
-        
     }
 }

@@ -12,7 +12,7 @@
                                 <p class="mb-0 text-white">Total Tanah</p>
                                 <h4 class="my-1 text-white">100</h4>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
                                 <p class="mb-0 text-white">Total Gedung</p>
                                 <h4 class="my-1 text-white">80</h4>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                             <div>
                                 <p class="mb-0 text-white">Total Bangunan</p>
                                 <h4 class="my-1 text-white">70</h4>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                             <div>
                                 <p class="mb-0 text-white">Total Kawasan</p>
                                 <h4 class="my-1 text-white">20</h4>
-                            </div>                           
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
             <div class="col-12 col-lg-8 d-flex">
                 <div class="card rounded-4 w-100">
                     <div class="card-body">
-                        <div class="d-flex align-items-cente">
+                        <div class="d-flex align-items-center">
                             <div>
                                 <h6 class="mb-0">Interaktif Maps</h6>
                             </div>
@@ -637,8 +637,8 @@
                                 </div>
                             </div>
                         </div> -->
-                        <!--end row-->
-                    <!-- </div>
+        <!--end row-->
+        <!-- </div>
                 </div>
             </div>
 
