@@ -6,7 +6,7 @@ class Kawasan extends BaseController
 {
     public function view()
     {
-        echo view('MasterData/Kawasan/kawasan');
+        echo view('MasterDataView/Kawasan/kawasan');
     }
     public function profile()
     {

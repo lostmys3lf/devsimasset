@@ -6,10 +6,10 @@ class Barang extends BaseController
 {
     public function index()
     {
-        echo view('MasterData/Barang/barang');
+        echo view('MasterDataView/Barang/barang');
     }
     public function input()
     {
-        echo view('MasterData/Barang/InputBarang');
+        echo view('MasterDataView/Barang/InputBarang');
     }
 }
