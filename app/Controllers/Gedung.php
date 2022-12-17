@@ -6,10 +6,10 @@ class Gedung extends BaseController
 {
     public function index()
     {
-        echo view('Gedung/gedung');
+        echo view('MasterData/Gedung/gedung');
     }
     public function input()
     {
-        echo view('Gedung/InputGedung');
+        echo view('MasterData/Gedung/InputGedung');
     }
 }

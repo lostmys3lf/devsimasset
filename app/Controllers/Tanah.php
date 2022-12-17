@@ -6,10 +6,10 @@ class Tanah extends BaseController
 {
     public function index()
     {
-        echo view('Tanah/tanah');
+        echo view('MasterData/Tanah/tanah');
     }
     public function input()
     {
-        echo view('Tanah/InputTanah');
+        echo view('MasterData/Tanah/InputTanah');
     }
 }
