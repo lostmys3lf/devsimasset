@@ -42,7 +42,7 @@
 					<div class="menu-title">Master Data</div>
 				</a>
 				<ul>
-					<li> <a href="<?= base_url('table/view') ?>"><i class="bx bx-right-arrow-alt"></i>Lokasi</a>
+					<li> <a href="<?= base_url('Lokasi/index') ?>"><i class="bx bx-right-arrow-alt"></i>Lokasi</a>
 					</li>
 					<li> <a href="<?= base_url('Tanah/index') ?>"><i class="bx bx-right-arrow-alt"></i>Tanah</a>
 					</li>
