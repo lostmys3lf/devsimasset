@@ -15,10 +15,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-9 mx-auto">
-                <h6 class="mb-0 text-uppercase">Text Inputs</h6>
+            <div class="col-xl-10 mx-auto">
+                <h6 class="mb-0 text-uppercase">Input Data Lokasi</h6>
                 <hr />
-                <form class="row mt-3" action="<?= base_url('Lokasi/input') ?>" method="post" enctype="multipart/form-data">
+                <form class="row mt-4" action="<?= base_url('Lokasi/input') ?>" method="post" enctype="multipart/form-data">
                     <div class="mb-3 row">
                         <label for="longitude" class="col-sm-2 col-form-label">longitude</label>
                         <div class="col-sm-10">
@@ -81,11 +81,15 @@
                             } ?>
                         </div>
                     </div>
-                    <div class="mb-3 row">
-                        <div class="col-sm-5"></div>
-                        <input class="col-sm-1 btn btn-success" type="submit" value="Input">
-                        <input class="col-sm-1 btn btn-secondary" type="button" value="Batal" onclick="javascript:history.go(-1);" />
-                        <div class="col-sm-5"></div>
+                    <div class="mb-3 row alig d-flex justify-content-center">
+                        <div class="col-4 d-flex justify-content-around">
+                            <div class="col-1">
+                                <input class="btn btn-success px-5" type="submit" value="Input">
+                            </div>
+                            <div class="col-1">
+                                <input class="btn btn-secondary px-5" type="button" value="Batal" onclick="javascript:history.go(-1);">
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
