@@ -40,7 +40,7 @@ if (session()->has("status_dml")) {
                         <a class="dropdown-item" href="input">Input Manual</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="">Input Dari Excel</a>
+                        <a class="dropdown-item" class='bx bx-cloud-upload mr-1' href="">Input Dari Excel</a>
                     </li>
                 </ul>
                 <!-- <button type="button" class="btn btn-primary split-bg-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">	<span class="visually-hidden">Toggle Dropdown</span> -->
