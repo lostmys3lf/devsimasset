@@ -25,7 +25,7 @@ class Lokasi extends BaseController
         $lokasimodel = model(LokasiModel::class);
         $datalokasi = $lokasimodel->getlokasiBasedOnId($id);
         echo view(
-            'lokasi/ubah_lokasi',
+            'MasterDataView/Lokasi/UbahLokasi',
             [
                 'title' => 'Ubah lokasi',
                 'datalokasi' => $datalokasi,
@@ -95,5 +95,62 @@ class Lokasi extends BaseController
         $session = session();
         $session->setFlashdata("status_dml", "Sukses Delete");
         return redirect()->to('Lokasi/index');
+    }
+
+    public function Ubah()
+    {
+        $lokasimodel = model(LokasiModel::class);
+        $validation = \config\Services::validation();
+
+        if (
+            $this->request->getPost() &&
+            $this->validate(
+                [
+                    'longitude'  => 'required|min_length[5]|max_length[20]',
+                    'latitude'  => 'required|min_length[5]|max_length[20]',
+                ],
+                [   //List Custom Pesan Error
+                    'longitude' => [
+                        'required' => 'inputan tidak boleh kosong',
+                        'min_length' => 'Panjang longitude tidak boleh kurang dari 5',
+                        'max_length' => 'Panjang longitude tidak boleh lebih dari 20',
+                    ],
+                    'latitude' => [
+                        'required' => 'inputan tidak boleh kosong',
+                        'min_length' => 'Panjang latitude tidak boleh kurang dari 5',
+                        'max_length' => 'Panjang latitude tidak boleh lebih dari 20',
+                    ],
+                ]
+            )
+        ) {
+            //masuk ke database
+            $lokasimodel->UbahLokasi();
+            $session = session();
+            $session->setFlashdata("status_dml", "Sukses Input");
+
+            //balikin lagi ke ReadLokasi
+            return redirect()->to('Lokasi/index');
+        } else {
+            $datalokasi = $lokasimodel->getlokasiBasedOnId($_POST['id_lokasi']);
+            echo view(
+                'MasterDataView/Lokasi/ReadLokasi',
+                [
+                    'title' => 'Ubah lokasi',
+                    'datalokasi' => $datalokasi,
+                    'validation' => $this->validator,
+                ]
+            );
+        }
+    }
+    public function IndexImport()
+    {
+        echo view(
+            'MasterDataView/Lokasi/ReadImportLokasi',
+            [
+                'title' => 'Ubah lokasi',
+
+
+            ]
+        );
     }
 }

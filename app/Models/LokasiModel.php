@@ -34,4 +34,16 @@ class LokasiModel extends Model
         $results = $query->getResult();
         return $results;
     }
+
+    public function UbahLokasi()
+    {
+        $db = db_connect();
+        $data = [
+            'longitude' => $_POST['longitude'],
+            'latitude' => $_POST['latitude']
+        ];
+        $builder = $db->table('tbl_lokasi');
+        $builder->where('id_lokasi', $_POST['id_lokasi']);
+        $builder->update($data);
+    }
 }

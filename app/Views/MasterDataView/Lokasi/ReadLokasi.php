@@ -40,7 +40,7 @@ if (session()->has("status_dml")) {
                         <a class="dropdown-item" href="input">Input Manual</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" class='bx bx-cloud-upload mr-1' href="">Input Dari Excel</a>
+                        <a class="dropdown-item" href="<?= base_url("Lokasi/IndexImport") ?>"><i class='bx bx-cloud-upload mr-2'></i>Impor dari Excel</a>
                     </li>
                 </ul>
                 <!-- <button type="button" class="btn btn-primary split-bg-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">	<span class="visually-hidden">Toggle Dropdown</span> -->
@@ -72,8 +72,9 @@ if (session()->has("status_dml")) {
                                     <td style="text-align:left"><?= $row['longitude'] ?></td>
                                     <td style="text-align:left"><?= $row['latitude'] ?></td>
                                     <td>
-                                        <a href="<?= base_url('Lokasi/viewData/' . $row['id_lokasi']) ?>" class="btn btn-primary btn-sm">Ubah</a>
-                                        <a onclick="deleteConfirm('<?php echo base_url('Lokasi/Delete/' . $row['id_lokasi']) ?>')" href="#" class="btn btn-danger btn-sm" role="button" aria-pressed="true">Hapus</a>
+                                        <div class="d-flex order-actions">
+                                            <a href="<?= base_url('Lokasi/viewData/' . $row['id_lokasi']) ?>" class=""><i class='bx bxs-edit'></i></a>
+                                            <a onclick="deleteConfirm('<?php echo base_url('Lokasi/Delete/' . $row['id_lokasi']) ?>')" href="#" class="ms-3"><i class='bx bxs-trash'></i></a>
                                     </td>
                                 </tr>
                             <?php
