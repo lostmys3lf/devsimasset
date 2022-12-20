@@ -52,6 +52,8 @@
 					</li>
 					<li> <a href="<?= base_url('Kawasan/view') ?>"><i class="bx bx-right-arrow-alt"></i>Kawasan</a>
 					</li>
+					<li> <a href="<?= base_url('Unit/index') ?>"><i class="bx bx-right-arrow-alt"></i>Unit</a>
+					</li>
 				</ul>
 			</li>
 			<li>
