@@ -3,7 +3,6 @@
 <!-- Tambahan Alert Jika Sukses DML -->
 <?php
 // jika session status_dml ada isinya maka tampilkan alert menggunakan sweet alert
-
 if (session()->has("status_dml")) {
 ?>
     <script>
@@ -41,7 +40,7 @@ if (session()->has("status_dml")) {
                         <a class="dropdown-item" href="input">Input Manual</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="<?= base_url("Lokasi/IndexImport") ?>"><i class='bx bx-cloud-upload mr-2'></i>Impor dari Excel</a>
+                        <a class="dropdown-item" href="<?= base_url("Unit/IndexImport") ?>"><i class='bx bx-cloud-upload mr-2'></i>Impor dari Excel</a>
                     </li>
                 </ul>
                 <!-- <button type="button" class="btn btn-primary split-bg-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">	<span class="visually-hidden">Toggle Dropdown</span> -->
@@ -57,25 +56,25 @@ if (session()->has("status_dml")) {
                     <table id="example" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                             <tr>
-                                <th>Id Lokasi</th>
-                                <th>Latitude</th>
-                                <th>Longitude</th>
+                                <th>Id Unit</th>
+                                <th>Nama Unit</th>
+                                <th>Id Lembaga</th>
                                 <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
                             // looping hasil penghuni dari database
-                            foreach ($datalokasi as $row) :
+                            foreach ($dataunit as $row) :
                             ?>
                                 <tr>
-                                    <td scope="row" style="text-align:left"><?= $row['id_lokasi'] ?></td>
-                                    <td style="text-align:left"><?= $row['longitude'] ?></td>
-                                    <td style="text-align:left"><?= $row['latitude'] ?></td>
+                                    <td scope="row" style="text-align:left"><?= $row['id_unit'] ?></td>
+                                    <td style="text-align:left"><?= $row['nama_unit'] ?></td>
+                                    <td style="text-align:left"><?= $row['id_lembaga'] ?></td>
                                     <td>
                                         <div class="d-flex order-actions">
-                                            <a href="<?= base_url('Lokasi/viewData/' . $row['id_lokasi']) ?>" class=""><i class='bx bxs-edit'></i></a>
-                                            <a onclick="deleteConfirm('<?php echo base_url('Lokasi/Delete/' . $row['id_lokasi']) ?>')" href="#" class="ms-3"><i class='bx bxs-trash'></i></a>
+                                            <a href="<?= base_url('Unit/viewData/' . $row['id_unit']) ?>" class=""><i class='bx bxs-edit'></i></a>
+                                            <a onclick="deleteConfirm('<?php echo base_url('Unit/Delete/' . $row['id_unit']) ?>')" href="#" class="ms-3"><i class='bx bxs-trash'></i></a>
                                     </td>
                                 </tr>
                             <?php

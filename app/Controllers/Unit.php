@@ -2,20 +2,20 @@
 
 namespace App\Controllers;
 
-use App\Models\LokasiModel;
+use App\Models\UnitModel;
 
-class Lokasi extends BaseController
+class Unit extends BaseController
 {
-    // menampilkan data yang sudah diambil dari LokasiModel
+    // menampilkan data yang sudah diambil dari unitModel
     public function index()
     {
-        $pemodelanlokasi = model(LokasiModel::class);
-        $datalokasi = $pemodelanlokasi->getData();
+        $pemodelanunit = model(UnitModel::class);
+        $dataunit = $pemodelanunit->getData();
         echo view(
-            'MasterDataView/Lokasi/ReadLokasi',
+            'MasterDataView/Unit/ReadUnit',
             [
-                'title' => 'Lokasi',
-                'datalokasi' => $datalokasi,
+                'title' => 'Unit',
+                'dataunit' => $dataunit,
             ]
         );
     }
@@ -23,21 +23,21 @@ class Lokasi extends BaseController
     public function viewData($id)
     {
 
-        $lokasimodel = model(LokasiModel::class);
-        $datalokasi = $lokasimodel->getlokasiBasedOnId($id);
+        $unitmodel = model(unitModel::class);
+        $dataunit = $unitmodel->getunitBasedOnId($id);
         echo view(
-            'MasterDataView/Lokasi/UbahLokasi',
+            'MasterDataView/unit/UbahUnit',
             [
-                'title' => 'Ubah lokasi',
-                'datalokasi' => $datalokasi,
+                'title' => 'Ubah unit',
+                'dataunit' => $dataunit,
 
             ]
         );
     }
-    //program untuk menambahkan data lokasi
+    //program untuk menambahkan data unit
     public function input()
     {
-        $lokasimodel = model(LokasiModel::class);
+        $unitmodel = model(unitModel::class);
         $validation =  \Config\Services::validation();
         if (
             $this->request->getPost() &&
@@ -62,7 +62,7 @@ class Lokasi extends BaseController
         ) {
             // kalau masuk ke sini berarti sudah sesuai dengan rule yang dikehendaki
             // maka langsung masukkan ke database
-            $lokasimodel->save(
+            $unitmodel->save(
                 [
 
                     'longitude'  => $this->request->getPost('longitude'),
@@ -75,13 +75,13 @@ class Lokasi extends BaseController
             $session = session();
             $session->setFlashdata("status_dml", "Sukses Input");
 
-            // redirect ke data lokasi
-            return redirect()->to('Lokasi/index');
+            // redirect ke data unit
+            return redirect()->to('unit/index');
         } else {
             echo view(
-                'MasterDataView/Lokasi/AddLokasi',
+                'MasterDataView/unit/AddUnit',
                 [
-                    'title' => 'Input Lokasi',
+                    'title' => 'Input unit',
                     'validation' => $this->validator,
                 ]
             );
@@ -91,16 +91,16 @@ class Lokasi extends BaseController
     //program untuk menghapus data
     public function Delete($id)
     {
-        $lokasi_model = model(LokasiModel::class);
-        $lokasi_model->DeleteLokasi($id);
+        $unit_model = model(unitModel::class);
+        $unit_model->Deleteunit($id);
         $session = session();
         $session->setFlashdata("status_dml", "Sukses Delete");
-        return redirect()->to('Lokasi/index');
+        return redirect()->to('unit/index');
     }
 
     public function Ubah()
     {
-        $lokasimodel = model(LokasiModel::class);
+        $unitmodel = model(unitModel::class);
         $validation = \config\Services::validation();
 
         if (
@@ -125,19 +125,19 @@ class Lokasi extends BaseController
             )
         ) {
             //masuk ke database
-            $lokasimodel->UbahLokasi();
+            $unitmodel->Ubahunit();
             $session = session();
             $session->setFlashdata("status_dml", "Sukses Input");
 
-            //balikin lagi ke ReadLokasi
-            return redirect()->to('Lokasi/index');
+            //balikin lagi ke Readunit
+            return redirect()->to('unit/index');
         } else {
-            $datalokasi = $lokasimodel->getlokasiBasedOnId($_POST['id_lokasi']);
+            $dataunit = $unitmodel->getunitBasedOnId($_POST['id_unit']);
             echo view(
-                'MasterDataView/Lokasi/ReadLokasi',
+                'MasterDataView/unit/Readunit',
                 [
-                    'title' => 'Ubah lokasi',
-                    'datalokasi' => $datalokasi,
+                    'title' => 'Ubah unit',
+                    'dataunit' => $dataunit,
                     'validation' => $this->validator,
                 ]
             );
@@ -146,9 +146,9 @@ class Lokasi extends BaseController
     public function IndexImport()
     {
         echo view(
-            'MasterDataView/Lokasi/ReadImportLokasi',
+            'MasterDataView/unit/ReadImportunit',
             [
-                'title' => 'Ubah lokasi',
+                'title' => 'Ubah unit',
 
 
             ]

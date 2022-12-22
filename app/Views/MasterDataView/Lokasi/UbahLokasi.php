@@ -18,11 +18,25 @@
             <div class="col-xl-10 mx-auto">
                 <h6 class="mb-0 text-uppercase"><?= esc($title) ?></h6>
                 <hr />
-                <form class="row mt-4" action="<?= base_url('Lokasi/input') ?>" method="post" enctype="multipart/form-data">
+                <?php
+                foreach ($datalokasi as $row) {
+                    $id_lokasi = $row->id_lokasi;
+                    $longitude = $row->longitude;
+                    $latitude = $row->latitude;
+                }
+
+                ?>
+                <form class="row mt-4" action="<?= base_url('Lokasi/Ubah') ?>" method="post" enctype="multipart/form-data">
+                    <div class="mb-3 row">
+                        <label for="id" class="col-sm-2 col-form-label">Id Lokasi</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="id_lokasi" name="id_lokasi" class="form-control" value="<?= $id_lokasi ?>" readonly>
+                        </div>
+                    </div>
                     <div class="mb-3 row">
                         <label for="longitude" class="col-sm-2 col-form-label">longitude</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="longitude" name="longitude" value="<?= set_value('longitude') ?>" placeholder="Masukkan longitude, cth: asdasd">
+                            <input type="text" class="form-control" id="longitude" name="longitude" value="<?= $longitude ?>" placeholder="Masukkan longitude, cth: asdasd" pattern="[0-9_.-]+">
                             <div class="invalid-feedback" id="errorlongitude"></div>
 
                             <?php
@@ -53,7 +67,7 @@
                     <div class="mb-3 row">
                         <label for="latitude" class="col-sm-2 col-form-label">latitude</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="latitude" name="latitude" value="<?= set_value('latitude') ?>" placeholder="Masukkan latitude, cth : 2" pattern="[0-9_.-]+">
+                            <input type="text" class="form-control" id="latitude" name="latitude" value="<?= $longitude ?>" placeholder="Masukkan latitude, cth : 2" pattern="[0-9_.-]+">
                             <div class="invalid-feedback" id="errorlatitude"></div>
 
                             <?php
