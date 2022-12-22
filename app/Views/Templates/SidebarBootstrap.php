@@ -46,7 +46,7 @@
 					</li>
 					<li> <a href="<?= base_url('Tanah/index') ?>"><i class="bx bx-right-arrow-alt"></i>Tanah</a>
 					</li>
-					<li> <a href="<?= base_url('Gedung/index') ?>"><i class="bx bx-right-arrow-alt"></i>Gedung</a>
+					<li> <a href="<?= base_url('Gedung/View') ?>"><i class="bx bx-right-arrow-alt"></i>Gedung</a>
 					</li>
 					<li> <a href="<?= base_url('Barang/index') ?>"><i class="bx bx-right-arrow-alt"></i>Barang</a>
 					</li>
@@ -56,6 +56,8 @@
 					<li> <a href="<?= base_url('Kawasan/view') ?>"><i class="bx bx-right-arrow-alt"></i>Kawasan</a>
 					</li>
 					<li> <a href="<?= base_url('Unit/index') ?>"><i class="bx bx-right-arrow-alt"></i>Unit</a>
+					</li>
+					<li> <a href="<?= base_url('Lembaga/View') ?>"><i class="bx bx-right-arrow-alt"></i>Unit</a>
 					</li>
 				</ul>
 			</li>
