@@ -40,26 +40,84 @@
 								<thead>
 									<tr>
 										<th>No</th>
+										<th>No. ID</th>
+										<th>Tanggal Perolehan</th>
 										<th>ID Barang</th>
 										<th>ID Gedung</th>
-										<th>Nama Gedung</th>
+                                        <th>ID Lantai</th>
+                                        <th>ID Ruangan</th>
+                                        <th>ID PJ</th>
+										<th>ID Kelompok Barang</th>
 										<th>Nama Barang</th>
-                                        <th>Nama Peminjam</th>
-                                        <th>Tanggal Peminjaman</th>
-                                        <th>Tanggal Pengembalian</th>
+										<th>Spesifikasi</th>
+										<th>Merk</th>
+										<th>Tipe</th>
+										<th>Warna</th>
+										<th>No. Seri</th>
+										<th>Cara Perolehan</th>
+										<th>Nilai Perolehan Rp.</th>
+										<th>Nomor</th>
+										<th>Tanggal</th>
+										<th>Jumlah Barang</th>
+										<th>Umur Ekonomis</th>
+										<th>Tanggal Exp. Garansi</th>
+										<th>Upload Foto</th>
+										<th>Upload Dokumen</th>
 
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>1.</td>
-										<td>B01</td>
-										<td>G01</td>
-										<td>Gedung Selaru</td>
-										<td>Komputer</td>
-										<td>Maya</td>
-                                        <td>30/12/2022</td>
-										<td>30/01/2023</td>
+										<td>1</td>
+										<td>15GXXX010110001</td>
+										<td>01/01/2015</td>
+										<td>15GXXX010110001</td>
+										<td>GXXX</td>
+										<td>01</td>
+                                        <td>011</td>
+										<td>01</td>
+										<td>01</td>
+										<td>Kursi Rapat</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>10</td>
+										<td>10 Tahun</td>
+										<td>01/05/2015</td>
+										<td>-</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td>15GXXX030220002</td>
+										<td>01/03/2015</td>
+										<td>15GXXX030220002</td>
+										<td>GXXX</td>
+										<td>01</td>
+                                        <td>011</td>
+										<td>01</td>
+										<td>01</td>
+										<td>Kursi Rapat</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>10</td>
+										<td>10 Tahun</td>
+										<td>01/05/2015</td>
+										<td>-</td>
+										<td>-</td>
 									</tr>
 								</tbody>
 							</table>

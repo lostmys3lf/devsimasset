@@ -54,7 +54,7 @@
                             <div class="card-body">
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">ID Tanah</h6>
+                                        <h6 class="mb-0">No. ID</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control"  />
@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Nama Tanah</h6>
+                                        <h6 class="mb-0">ID Barang</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control"  />
@@ -70,7 +70,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Nama Bangunan</h6>
+                                        <h6 class="mb-0">ID Gedung</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control" />
@@ -78,7 +78,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Kawasan</h6>
+                                        <h6 class="mb-0">ID Lantai</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control"  />
@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Lembaga</h6>
+                                        <h6 class="mb-0">ID Ruangan</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control" />
@@ -94,7 +94,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Alamat</h6>
+                                        <h6 class="mb-0">ID Unit / PJ</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control" />
@@ -102,50 +102,13 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Provinsi</h6>
+                                        <h6 class="mb-0">ID Kel. Barang</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control" />
                                     </div>
                                 </div>
-                                <div class="row mb-3">
-                                    <div class="col-sm-5">
-                                        <h6 class="mb-0">Kota/kabupaten</h6>
-                                    </div>
-                                    <div class="col-sm-7 text-secondary">
-                                        <input type="text" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <div class="col-sm-5">
-                                        <h6 class="mb-0">Kelurahan</h6>
-                                    </div>
-                                    <div class="col-sm-7 text-secondary">
-                                        <input type="text" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <div class="col-sm-5">
-                                        <h6 class="mb-0">Rt</h6>
-                                    </div>
-                                    <div class="col-sm text-secondary">
-                                        <input type="text" class="form-control" />
-                                    </div>
-                                    <div class="col-sm">
-                                        <h6 class="mb-0">Rw</h6>
-                                    </div>
-                                    <div class="col-sm text-secondary">
-                                        <input type="text" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <div class="col-sm-5">
-                                        <h6 class="mb-0">Kode Pos</h6>
-                                    </div>
-                                    <div class="col-sm-7 text-secondary">
-                                        <input type="text" class="form-control" />
-                                    </div>
-                                </div>
+                                
                                     <div class="col-sm-7 text-secondary">
                                         <!-- <input type="text" class="form-control" /> -->
                                     </div>
@@ -162,7 +125,13 @@
                                 <hr>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Status Bangunan</h6>
+                                        <h6 class="mb-0">Data - Barang</h6>
+                                    </div>
+                                    <br><br>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5">
+                                        <h6 class="mb-0">Nama Barang</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control"  />
@@ -170,7 +139,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Luas Tanah</h6>
+                                        <h6 class="mb-0">Spesifikasi</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control"  />
@@ -178,7 +147,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Jumlah Lt.</h6>
+                                        <h6 class="mb-0">Merk</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control" />
@@ -186,7 +155,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Jumlah Ruang</h6>
+                                        <h6 class="mb-0">Tipe</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control"  />
@@ -194,7 +163,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Luas Bangunan</h6>
+                                        <h6 class="mb-0">Warna</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control"  />
@@ -202,7 +171,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Luas Lt.</h6>
+                                        <h6 class="mb-0">No. Seri</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
                                         <input type="text" class="form-control"  />
@@ -210,25 +179,56 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
-                                        <h6 class="mb-0">Tgl. Perolehan</h6>
+                                        <h6 class="mb-0">Jumlah Barang</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
-                                        <input type="date" class="form-control" />
+                                        <input type="text" class="form-control" />
                                     </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5">
+                                        <h6 class="mb-0">Umur Ekonomis</h6>
+                                    </div>
+                                    <div class="col-sm-7 text-secondary">
+                                        <input type="text" class="form-control" />
+                                        <!-- <select class="form-select" aria-label="Default select example" id="jabatan" name="jabatan">
+                    <option value="#" disabled selected>Pilih Cara Perolehan</option>
+                        <option >Pembelian</option>
+                        <option >Hibah</option>
+                        <option >Sewa</option>   
+                    </select> -->
+
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5">
+                                        <h6 class="mb-0">Tgl. Expire Garansi</h6>
+                                    </div>
+                                    <div class="col-sm-7 text-secondary">
+                                        <!-- <input type="text" class="form-control" /> -->
+                                        <label for="formFileMultiple" class="form-label"></label>
+                                    <input class="form-control" type="date" id="formFileMultiple" multiple>
+                                    </div>
+                                </div>
+                                <br>
+                                <hr>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5">
+                                        <h6 class="mb-0">Data - Kepemilikan</h6>
+                                    </div>
+                                    <br><br>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-5">
                                         <h6 class="mb-0">Cara Perolehan</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
-                                        <!-- <input type="text" class="form-control" /> -->
-                                        <select class="form-select" aria-label="Default select example" id="jabatan" name="jabatan">
+                                        <select class="form-select" aria-label="Default select example" id="cara_perolehan" name="cara_perolehan">
                     <option value="#" disabled selected>Pilih Cara Perolehan</option>
-                        <option >Pembelian</option>
-                        <option >Hibah</option>
-                        <option >Sewa</option>
-                        
+                        <option >Tunai</option>
+                        <option >kredit</option>
                     </select>
+
                                     </div>
                                 </div>
                                 <div class="row mb-3">
@@ -236,9 +236,42 @@
                                         <h6 class="mb-0">Nilai Perolehan</h6>
                                     </div>
                                     <div class="col-sm-7 text-secondary">
-                                        <!-- <input type="text" class="form-control" /> -->
-                                        <label for="formFileMultiple" class="form-label"></label>
-                                    <input class="form-control" type="text" id="formFileMultiple" multiple>
+                                        <input type="text" class="form-control"  />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5">
+                                        <h6 class="mb-0">Nomor</h6>
+                                    </div>
+                                    <div class="col-sm-7 text-secondary">
+                                        <input type="text" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5">
+                                        <h6 class="mb-0">Tanggal</h6>
+                                    </div>
+                                    <div class="col-sm-7 text-secondary">
+                                        <input type="text" class="form-control"  />
+                                    </div>
+                                </div>
+                                <br><hr><br>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5">
+                                        <h6 class="mb-0">Upload Dokumen</h6>
+                                    </div>
+                                    <div class="col-sm-7 text-secondary">
+                                        <input type="file" class="form-control"  />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5">
+                                        <h6 class="mb-0">Upload Foto</h6>
+                                    </div>
+                                    <div class="col-sm-7 text-secondary">
+                                        <!-- <input type="text" class="form-control" />
+                                        <label for="formFileMultiple" class="form-label"></label> -->
+                                    <input class="form-control" type="file" >
                                     </div>
                                 </div>
                                 <div class="row mb-3">
@@ -268,7 +301,8 @@
                             </div>
                         </div>
                         </div>
-                        <hr>
+                                
+                        <!-- <hr>
                         <div class="row">
                         <div class="col-lg-6">
                         <div class="card">
@@ -453,7 +487,7 @@
 						</div>
                             </div>
                         </div>
-                        </div>
+                        </div> -->
                         <!-- </div> -->
                 
                         <!-- <div class="row">
