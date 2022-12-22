@@ -57,7 +57,7 @@
 					</li>
 					<li> <a href="<?= base_url('Unit/index') ?>"><i class="bx bx-right-arrow-alt"></i>Unit</a>
 					</li>
-					<li> <a href="<?= base_url('Lembaga/View') ?>"><i class="bx bx-right-arrow-alt"></i>Unit</a>
+					<li> <a href="<?= base_url('Lembaga/View') ?>"><i class="bx bx-right-arrow-alt"></i>Lembaga</a>
 					</li>
 				</ul>
 			</li>
