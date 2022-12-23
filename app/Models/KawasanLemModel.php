@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class KawasanModel extends Model
+class KawasanLemModel extends Model
 {
     // atribut tabel diisi dengan nama tabel
     protected $table = 'tbl_kawasan';
