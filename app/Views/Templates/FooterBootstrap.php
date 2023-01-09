@@ -105,6 +105,21 @@
 	</div>
 	<!--end switcher-->
 
+	<!-- custom datatable -->
+	<style>
+		/* .dataTables_wrapper {
+			width: max-content;
+			columns: auto;
+		} */
+		.dataTables_wrapper .table.table-striped.table-bordered.dataTable.no-footer{
+			width: max-content;
+			columns: auto;
+			font-size: small;
+		}
+		
+	</style>
+	<!-- end custom -->
+
 	<script src="/assets/js/bootstrap.bundle.min.js"></script>
 	<!--plugins-->
 	<script src="/assets/js/jquery.min.js"></script>
