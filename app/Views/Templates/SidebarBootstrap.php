@@ -52,6 +52,7 @@
 					</li>
 					<ul>
 						<li> <a href="<?= base_url('KelompokBarang/index') ?>"><i class="bx bx-right-arrow-alt"></i>Kelompok barang</a></li>
+						<li> <a href="<?= base_url('JenisBarang/index') ?>"><i class="bx bx-right-arrow-alt"></i>Jenis Barang</a></li>
 					</ul>
 					<li> <a href="<?= base_url('Kawasan/view') ?>"><i class="bx bx-right-arrow-alt"></i>Kawasan</a>
 					</li>
