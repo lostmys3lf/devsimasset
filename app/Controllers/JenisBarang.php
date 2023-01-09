@@ -10,7 +10,7 @@ class JenisBarang extends BaseController
     {
         $jenis_barang_model = model(JenisBarangModel::class);
         $datajenisbarang = $jenis_barang_model->getJenisBarang();
-        echo view('MasterDataView/JenisBarang/read',
+        echo view('MasterDataView/JenisBarang/Read',
                     [
                         'datajenisbarang' => $datajenisbarang,
                     ]
@@ -18,7 +18,7 @@ class JenisBarang extends BaseController
     }
 
     public function view_createform(){
-        echo view('MasterDataView/JenisBarang/create');
+        echo view('MasterDataView/JenisBarang/Create');
     }
 
     public function create()

@@ -10,7 +10,7 @@ class KelompokBarang extends BaseController
     {
         $kelompok_barang_model = model(KelompokBarangModel::class);
         $datakelompokbarang = $kelompok_barang_model->getKelompokBarang();
-        echo view('MasterDataView/KelompokBarang/read',
+        echo view('MasterDataView/KelompokBarang/Read',
                     [
                         'datakelompokbarang' => $datakelompokbarang,
                     ]
@@ -18,7 +18,7 @@ class KelompokBarang extends BaseController
     }
 
     public function view_createform(){
-        echo view('MasterDataView/KelompokBarang/create');
+        echo view('MasterDataView/KelompokBarang/Create');
     }
 
     public function create()
